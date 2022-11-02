@@ -1,0 +1,45 @@
+/*ブラウザの持っているCSSをリセットするための記述*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  color:#6c6b6b;
+}
+
+
+a{
+  text-decoration:none;
+}
+
+.picture{
+  width: 100%;
+  height:800px;
+  background-size:cover;
+  background-position:center;
+}
+
+.pic1{
+width:100%;
+height:200px;
+background-image:url(img_ensyu06/box1.jpg);
+}
+
+.pic2{
+width:100%;
+height:200px;
+background-position:right;
+background-image:url(img_ensyu06/box2.jpg);
+}
+
+.pic3{
+width:100%;
+height:200px;
+background-image:url(img_ensyu06/box3.jpg);
+}
+
+.pic4{
+width:100%;
+height:200px;
+background-position:right;
+background-image:url(img_ensyu06/box4.jpg);
+}
