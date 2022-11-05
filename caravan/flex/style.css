@@ -1,0 +1,74 @@
+/*ブラウザの持っているCSSをリセットするための記述*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+  background-color:#141414;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-area{
+  width:100%;
+  padding:30px 20px;
+  background-color:deeppink;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.header-area-box{
+  background-color:pink;
+  margin:0 10px;
+  flex-basis:140px;
+  height:70px;
+}
+
+.header-area > :first-child{
+  margin-right:auto;
+}
+
+main{
+  display:flex;
+  justify-content:center;
+}
+
+.main-left-area{
+  background-color:#bee0ce;
+  width:300px;
+}
+
+.main-right-area{
+  display:flex;
+  background-color:green;
+  max-width:700px;
+  flex-grow:1;
+  flex-wrap:wrap;
+  padding:20px;
+}
+
+.main-right-area-box{
+  flex-basis:200px;
+  height:130px;
+  background-color:yellow;
+  margin:10px;
+}
+
+footer{
+  display:flex;
+  background-color:skyblue;
+  width:100%;
+  flex-wrap:wrap;
+  padding:20px;
+  justify-content:center;
+}
+
+.footer-box{
+  flex-basis:45%;
+  max-width:600px;
+  height:40px;
+  margin:10px;
+  background-color:#f0f8ff;
+}
